@@ -6,10 +6,6 @@ html {
   html {
     font-size: 1.2rem;
   }
-  .navtext{
-  	font-size:2rem;
-  }
-
 }
 
 @include media-breakpoint-up(md) {
