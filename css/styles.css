@@ -1,25 +1,68 @@
-html {
-  font-size: 1rem;
-}
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
+/* Color Palette 
+#2B2D42 -- DARK BLUE
+#8D99AE -- LIGHT BLUE
+#EDF2F4 -- BLUE/WHITE
+#EF233C -- RED
+*/
+
+/* Global styles
+--------------------*/
+
+/*@media only screen and (max-width: 576px){
+  #jum{
+    color: blue!important;
   }
+
+}*/
+body {
+
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+h2{
+  font-family: 'Caveat', cursive;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 80px;
+}
+h4{
+  font-size: 19px;
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
+/* Header and Footer styles
+----------------------------*/
+
+header, footer {
+  background-color: #2B2D42;
+  color:#8D99AE;
+}
+header h1, header h2 {
+  color:#EDF2F4;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+
+/* work Experience 
+----------------------------*/
+.work {
+  background: #EDF2F4;
 }
 
+/* Education 
+----------------------------*/
+.education {
+  background: #8D99AE;
+}
 .vertical-center{
 
 	display: block;
