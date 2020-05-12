@@ -62,10 +62,6 @@ header, footer {
     transform: translate(-50%, -50%);
 
 }
-.jumb{
-position:relative; 
-height:500px;
-}
-.home-image{
-	height: 400px;
+#diff {
+  color: white;
 }

@@ -9,4 +9,11 @@ header h1, header h2 {
   margin-top: 1px;
   margin-bottom: 1px; }
 
+.home, .jumb, .home-image {
+  height: 500px; }
+
+.jumb {
+  position: relative; }
+  
+
 /*# sourceMappingURL=index.css.map */

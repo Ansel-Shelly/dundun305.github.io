@@ -17,3 +17,14 @@ header{
 	  margin-bottom: 1px;
 	}
 }
+.home{
+  height:500px;
+}
+.jumb{
+  	@extend .home;
+	position:relative; 
+	
+}
+.home-image{
+	@extend .home;
+}
